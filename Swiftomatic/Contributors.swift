@@ -13,6 +13,7 @@ struct Contributor: Identifiable {
     var name: String = ""
     var image: String = ""
     var description: String = ""
+    var contributions: [String] = []
     
     init(name: String, image: String, description: String) {
         self.name = name
