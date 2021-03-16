@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct ContributorsView {
+struct ContributorsView: View {
     
     let contributors: [Contributors] = [Contributors(name: "Ben Cohen", image: "ben", description: "blablaben"),
                                         Contributors(name: "Chris Lattner", image: "chris", description: "poizehjdpiuzehd"),
@@ -18,7 +18,19 @@ struct ContributorsView {
     ]
     
     var body: some View {
+        VStack {
         Text("Main contributors")
             .font(.largeTitle)
+        List(contributors) { contributor in
+            Text(contributor.name)
+        }
+        }
+    }
+}
+
+
+struct ContributorsView_Preview: PreviewProvider {
+    static var previews: some View {
+        ContributorsView()
     }
 }

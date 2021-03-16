@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct Contributors {
+struct Contributors: Identifiable {
+    let id = UUID()
+    
     var name: String = ""
     var image: String = ""
     var description: String = ""
