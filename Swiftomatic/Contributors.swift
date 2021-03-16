@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Contributors: Identifiable {
+struct Contributor: Identifiable {
     let id = UUID()
     
     var name: String = ""
