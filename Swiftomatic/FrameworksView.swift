@@ -34,8 +34,8 @@ extension FrameworkiOS {
         FrameworkiOS (name: "MapKit", description: "Display map or satellite imagery within your app, call out points of interest, and determine placemark information for map coordinates.", image: "mapkit"),
         FrameworkiOS (name: "CoreData", description: "Core Data is an object graph and persistence framework provided by Apple in the macOS and iOS operating systems. It was introduced in Mac OS X 10.4 Tiger and iOS with iPhone SDK 3.0. It allows data organized by the relational entity–attribute model to be serialized into XML, binary, or SQLite stores. The data can be manipulated using higher level objects representing entities and their relationships. Core Data manages the serialized version, providing object lifecycle and object graph management, including persistence. Core Data interfaces directly with SQLite, insulating the developer from the underlying SQL.", image: "192px-Macosx_data_coredata_20090925"),
         FrameworkiOS (name: "CloudKit", description: "Store your app’s data in iCloud and keep everything up to date across apps and on the web with CloudKit JS. With up to 1PB of free storage for each app, it’s never been easier to build and grow your apps using CloudKit.", image: "cloudkit"),
-        FrameworkiOS (name: "ARKit", description: "", image: ""),
-        FrameworkiOS (name: "Siri", description: "", image: "")
+        FrameworkiOS (name: "ARKit", description: "Build unparalleled augmented reality experiences for hundreds of millions of users on iOS and iPadOS, the biggest AR platforms in the world. With powerful frameworks like ARKit and RealityKit, and creative tools like Reality Composer and Reality Converter, it’s never been easier to bring your ideas to life in AR.", image: "arkit"),
+        FrameworkiOS (name: "Siri", description: "Siri is the world’s most popular intelligent assistant, and now has an all new compact design. With SiriKit and Shortcuts, your apps can help users get things done with just their voice, intelligent suggestions, or the Shortcuts app. Your apps can now also integrate with more platforms with Shortcuts on watchOS 7, SiriKit Music on HomePod, and SiriKit Media on Apple TV.", image: "siri")
     ]
 }
 
@@ -43,9 +43,21 @@ import SwiftUI
 
 struct FrameworksView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .foregroundColor(.purple)
-    }
+        let myFrameworks = FrameworkiOS.data
+        
+        NavigationView {
+            List {
+                ForEach (myFrameworks) { framework in
+                    NavigationLink (
+                        destination: FrameworkDetail(framework: framework),
+                        label: {
+                            Text(framework.name)
+                        })
+                }
+            }
+            .navigationTitle("Frameworks iOS")
+        }
+     }
 }
 
 struct FrameworksView_Previews: PreviewProvider {

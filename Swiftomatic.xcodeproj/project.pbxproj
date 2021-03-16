@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F17C7B92600F86B0067CDF4 /* FrameworksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F17C7B82600F86B0067CDF4 /* FrameworksView.swift */; };
+		0F17C7BC260103640067CDF4 /* FrameworkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F17C7BB260103640067CDF4 /* FrameworkDetail.swift */; };
 		14EC27F12600EFF00034AFE8 /* SwiftomaticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EC27F02600EFF00034AFE8 /* SwiftomaticApp.swift */; };
 		14EC27F32600EFF00034AFE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EC27F22600EFF00034AFE8 /* ContentView.swift */; };
 		14EC27F52600EFF40034AFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14EC27F42600EFF40034AFE8 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		0F17C7B82600F86B0067CDF4 /* FrameworksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksView.swift; sourceTree = "<group>"; };
+		0F17C7BB260103640067CDF4 /* FrameworkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetail.swift; sourceTree = "<group>"; };
 		14EC27ED2600EFF00034AFE8 /* Swiftomatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftomatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14EC27F02600EFF00034AFE8 /* SwiftomaticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticApp.swift; sourceTree = "<group>"; };
 		14EC27F22600EFF00034AFE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				14EC27F02600EFF00034AFE8 /* SwiftomaticApp.swift */,
 				14EC27F22600EFF00034AFE8 /* ContentView.swift */,
 				0F17C7B82600F86B0067CDF4 /* FrameworksView.swift */,
+				0F17C7BB260103640067CDF4 /* FrameworkDetail.swift */,
 				14EC27F42600EFF40034AFE8 /* Assets.xcassets */,
 				14EC27F92600EFF40034AFE8 /* Info.plist */,
 				14EC27F62600EFF40034AFE8 /* Preview Content */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14EC27F32600EFF00034AFE8 /* ContentView.swift in Sources */,
+				0F17C7BC260103640067CDF4 /* FrameworkDetail.swift in Sources */,
 				14EC27F12600EFF00034AFE8 /* SwiftomaticApp.swift in Sources */,
 				0F17C7B92600F86B0067CDF4 /* FrameworksView.swift in Sources */,
 			);
