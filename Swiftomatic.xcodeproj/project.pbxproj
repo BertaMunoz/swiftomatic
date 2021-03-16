@@ -11,6 +11,7 @@
 		14EC27F32600EFF00034AFE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EC27F22600EFF00034AFE8 /* ContentView.swift */; };
 		14EC27F52600EFF40034AFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14EC27F42600EFF40034AFE8 /* Assets.xcassets */; };
 		14EC27F82600EFF40034AFE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14EC27F72600EFF40034AFE8 /* Preview Assets.xcassets */; };
+		68A446892600FC5600EA7DFA /* dataConf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A446882600FC5600EA7DFA /* dataConf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		14EC27F42600EFF40034AFE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14EC27F72600EFF40034AFE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14EC27F92600EFF40034AFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68A446882600FC5600EA7DFA /* dataConf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataConf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				14EC27F02600EFF00034AFE8 /* SwiftomaticApp.swift */,
 				14EC27F22600EFF00034AFE8 /* ContentView.swift */,
+				68A446882600FC5600EA7DFA /* dataConf.swift */,
 				14EC27F42600EFF40034AFE8 /* Assets.xcassets */,
 				14EC27F92600EFF40034AFE8 /* Info.plist */,
 				14EC27F62600EFF40034AFE8 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14EC27F32600EFF00034AFE8 /* ContentView.swift in Sources */,
+				68A446892600FC5600EA7DFA /* dataConf.swift in Sources */,
 				14EC27F12600EFF00034AFE8 /* SwiftomaticApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
